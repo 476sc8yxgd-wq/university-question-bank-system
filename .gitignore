@@ -1,0 +1,91 @@
+# 编译输出
+*.class
+target/
+build/
+out/
+
+# 日志文件
+*.log
+app-debug.log
+app-new.log
+run-error.log
+run.log
+test.log
+compile.log
+compile_error.txt
+compile-error.txt
+
+# 数据库文件
+*.db
+question_bank.db
+university_question_bank.db
+
+# IDE 配置
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*~
+
+# 打包和构建相关
+dist/
+fatjar-temp/
+x86/
+launch4j/
+wix314-binaries/
+wix314-binaries.zip
+
+# 依赖下载（整个 lib 目录，保留 gitkeep）
+lib/
+!lib/.gitkeep
+
+# 测试类（主目录）
+Test*.java
+Test*.class
+SimpleLoginTest.class
+LoginTest.class
+PortTest.class
+DNSCheck.class
+DatabaseChecker.class
+PerformanceTest.class
+PerformanceTest.class
+SimplePerformanceTest.class
+TestGUI.class
+TestRestAPI.class
+TestQuestionService.class
+DatabaseChecker.class
+UpdateAdminPassword.class
+CheckIndexes.class
+PasswordGenerator.class
+RestAPITest.class
+SupabaseTest.class
+
+# 文档文件
+# 保留 README.md，忽略其他 markdown 文档
+*.md
+!README.md
+
+# 批处理和脚本文件
+*.bat
+*.ps1
+*.cmd
+*.sh
+
+# 其他配置文件
+MANIFEST.MF
+font_metrics.properties
+Log4j-charsets.properties
+sqlite-jdbc.properties
+# 保留 database.properties 和 pom.xml
+# database.properties
+
+# Java 生成的文件
+.c3p0/
+hsperfdata_*/
